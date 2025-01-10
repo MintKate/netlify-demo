@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <iframe
+          width="100%"
+          height="600"
+          seamless
+          frameBorder="0"
+          scrolling="no"
+          src="http://ec2-3-106-58-241.ap-southeast-2.compute.amazonaws.com/superset/dashboard/p/a8RrWgorJgx/"
+          title="Superset Dashboard"
+        ></iframe>
       </header>
     </div>
   );
